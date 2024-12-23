@@ -40,10 +40,16 @@ export default defineConfig({
         'vue',
         '@vueuse/core',
         VueRouterAutoImports,
+        {
+          'wretch': [
+            ['default', 'wretch']
+          ]
+        }
       ],
       dts: true,
       dirs: [
         './src/composables',
+        './src/fetch'
       ],
       vueTemplate: true,
     }),
