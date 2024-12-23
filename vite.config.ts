@@ -41,9 +41,13 @@ export default defineConfig({
         '@vueuse/core',
         VueRouterAutoImports,
         {
+          'consola': [
+            'consola',
+            'createConsola',
+          ],
           'wretch': [
             ['default', 'wretch']
-          ]
+          ],
         }
       ],
       dts: true,
