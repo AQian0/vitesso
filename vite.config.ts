@@ -45,6 +45,10 @@ export default defineConfig({
             'consola',
             'createConsola',
           ],
+          '@formkit/tempo': [
+            'format',
+            'parse',
+          ],
           'wretch': [
             ['default', 'wretch']
           ],
