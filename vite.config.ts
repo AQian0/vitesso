@@ -58,6 +58,9 @@ export default defineConfig({
             'throttlingCache',
             'delay',
           ],
+          '@formkit/auto-animate/vue': [
+            'useAutoAnimate',
+          ],
         }
       ],
       dts: true,
