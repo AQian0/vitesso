@@ -52,6 +52,12 @@ export default defineConfig({
           'wretch': [
             ['default', 'wretch']
           ],
+          'wretch/middlewares': [
+            'retry',
+            'dedupe',
+            'throttlingCache',
+            'delay',
+          ],
         }
       ],
       dts: true,

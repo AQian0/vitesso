@@ -1,6 +1,4 @@
-import { retry } from "wretch/middlewares";
-
-export const api = wretch().options({
+export const api = wretch('/api').options({
   mode: 'cors',
   credentials: 'include',
 }).middlewares([
