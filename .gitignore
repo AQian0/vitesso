@@ -7,3 +7,7 @@ dist-ssr
 node_modules
 .idea/
 *.log
+
+# Auto-generated type declarations
+auto-imports.d.ts
+components.d.ts
