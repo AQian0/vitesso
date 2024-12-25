@@ -64,6 +64,9 @@ export default defineConfig({
         }
       ],
       dts: true,
+      dirsScanOptions: {
+        types: true,
+      },
       dirs: [
         './src/composables',
         './src/fetch'
