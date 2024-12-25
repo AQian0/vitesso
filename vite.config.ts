@@ -61,6 +61,9 @@ export default defineConfig({
           '@formkit/auto-animate/vue': [
             'useAutoAnimate',
           ],
+          'overlayscrollbars-vue': [
+            'useOverlayScrollbars',
+          ]
         }
       ],
       dts: true,
