@@ -11,3 +11,4 @@ node_modules
 # Auto-generated type declarations
 auto-imports.d.ts
 components.d.ts
+typed-router.d.ts
