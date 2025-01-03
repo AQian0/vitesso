@@ -75,6 +75,7 @@ export default defineConfig({
         './src/fetch'
       ],
       vueTemplate: true,
+      packagePresets: ['pinia', '@pinia/colada'],
     }),
 
     // https://github.com/antfu/vite-plugin-components
