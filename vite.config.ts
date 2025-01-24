@@ -2,7 +2,6 @@
 
 import path from 'node:path'
 import Vue from '@vitejs/plugin-vue'
-import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import VueMacros from 'unplugin-vue-macros/vite'
@@ -10,6 +9,7 @@ import { VueRouterAutoImports } from 'unplugin-vue-router'
 import VueRouter from 'unplugin-vue-router/vite'
 import { defineConfig } from 'vite'
 import RemoveConsole from 'vite-plugin-remove-console'
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   resolve: {
@@ -83,9 +83,7 @@ export default defineConfig({
       dts: true,
     }),
 
-    // https://github.com/antfu/unocss
-    // see uno.config.ts for config
-    UnoCSS(),
+    tailwindcss(),
 
     RemoveConsole()
   ],

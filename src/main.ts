@@ -3,9 +3,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import { routes } from 'vue-router/auto-routes'
 import App from './App.vue'
 
-import '@unocss/reset/tailwind-compat.css'
-import 'uno.css'
-import 'overlayscrollbars/overlayscrollbars.css';
+import './styles/base.css'
+import 'overlayscrollbars/overlayscrollbars.css'
 import './styles/main.css'
 
 const app = createApp(App)
