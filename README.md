@@ -33,7 +33,7 @@
 ## 尝试
 
 ```bash
-bunx degit AQian-Cup/vitesso vitesso-app
+bunx degit AQian0/vitesso vitesso-app
 cd vitesso-app
 bun i
 ```
