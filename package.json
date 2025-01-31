@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "test": "vitest",
     "up": "taze major -I",
-    "postinstall": "npx simple-git-hooks"
+    "postinstall": "bunx simple-git-hooks"
   },
   "dependencies": {
     "@formkit/auto-animate": "^0.8.2",
