@@ -45,10 +45,17 @@ export default defineConfig({
             'consola',
             'createConsola',
           ],
+        },
+        {
           '@formkit/tempo': [
             'format',
             'parse',
           ],
+          '@formkit/auto-animate/vue': [
+            'useAutoAnimate',
+          ],
+        },
+        {
           'wretch': [
             ['default', 'wretch']
           ],
@@ -58,9 +65,8 @@ export default defineConfig({
             'throttlingCache',
             'delay',
           ],
-          '@formkit/auto-animate/vue': [
-            'useAutoAnimate',
-          ],
+        },
+        {
           'overlayscrollbars-vue': [
             'useOverlayScrollbars',
           ]
