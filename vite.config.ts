@@ -65,6 +65,9 @@ export default defineConfig({
             'throttlingCache',
             'delay',
           ],
+          'wretch/addons/queryString': [
+            ['default', 'QueryStringAddon']
+          ]
         },
         {
           'overlayscrollbars-vue': [
