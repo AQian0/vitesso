@@ -48,6 +48,7 @@ export default defineConfig({
       imports: [
         'vue',
         '@vueuse/core',
+        'vue-router',
         VueRouterAutoImports,
         {
           'consola': [
