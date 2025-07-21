@@ -17,6 +17,15 @@ export default defineConfig({
       '~/': `${path.resolve(__dirname, 'src')}/`,
     },
   },
+
+  server: {
+    proxy: {
+      '/api': {
+        changeOrigin: true,
+      }
+    }
+  },
+
   plugins: [
     VueMacros({
       defineOptions: false,
