@@ -1,4 +1,4 @@
-export const api = wretch('/api')
+export const api = wretch(import.meta.env.VITE_API_URL)
   .options({
     mode: 'cors',
     credentials: 'include',
