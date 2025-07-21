@@ -8,6 +8,6 @@ export const api = wretch('/api')
     retry({
       maxAttempts: 3,
       delayTimer: 1000,
+      resolveWithLatestResponse: true,
     }),
   ])
-
