@@ -100,6 +100,16 @@ export default defineConfig({
     // https://github.com/antfu/vite-plugin-components
     Components({
       dts: true,
+      resolvers: [
+        (componentName) => {
+          if (componentName === 'OverlayScrollbarsComponent') {
+            return {
+              name: 'OverlayScrollbarsComponent',
+              from: 'overlayscrollbars-vue'
+            }
+          }
+        }
+      ]
     }),
 
     tailwindcss(),
