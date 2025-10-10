@@ -1,13 +1,5 @@
-export const api = wretch(import.meta.env.VITE_API_URL)
-  .options({
-    mode: 'cors',
-    credentials: 'include',
-  })
-  .addon(QueryStringAddon)
-  .middlewares([
-    retry({
-      maxAttempts: 3,
-      delayTimer: 1000,
-      resolveWithLatestResponse: true,
-    }),
-  ])
+export const api = ofetch.create({
+  baseURL: import.meta.env.VITE_API_URL,
+  credentials: "include",
+  mode: "cors",
+})

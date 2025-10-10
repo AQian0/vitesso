@@ -66,17 +66,8 @@ export default defineConfig({
           ],
         },
         {
-          'wretch': [
-            ['default', 'wretch']
-          ],
-          'wretch/middlewares': [
-            'retry',
-            'dedupe',
-            'throttlingCache',
-            'delay',
-          ],
-          'wretch/addons/queryString': [
-            ['default', 'QueryStringAddon']
+          'ofetch': [
+            'ofetch',
           ]
         },
         {
