@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "test": "vitest",
     "up": "taze major -I",
-    "postinstall": "bunx simple-git-hooks"
+    "postinstall": "bunx simple-git-hooks",
+    "api-generate": "openapi-ts"
   },
   "dependencies": {
     "@formkit/auto-animate": "^0.8.2",
