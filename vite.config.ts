@@ -74,6 +74,11 @@ export default defineConfig({
           'overlayscrollbars-vue': [
             'useOverlayScrollbars',
           ]
+        },
+        {
+          '@hey-api/openapi-ts': [
+            'createClient',
+          ]
         }
       ],
       dts: true,
