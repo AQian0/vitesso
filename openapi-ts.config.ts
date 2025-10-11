@@ -11,5 +11,12 @@ export default defineConfig({
     indexFile: false,
     lint: "oxlint",
   },
-
+  plugins: [
+    '@hey-api/typescript',
+    '@hey-api/sdk',
+    {
+      name: '@hey-api/schemas',
+      type: 'json'
+    }
+  ]
 })
