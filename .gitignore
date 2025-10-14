@@ -12,4 +12,4 @@ node_modules
 auto-imports.d.ts
 components.d.ts
 typed-router.d.ts
-src/fetch/
+src/fetch/client

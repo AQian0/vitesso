@@ -6,7 +6,7 @@ export default defineConfig({
     watch: true
   },
   output: {
-    path: "src/fetch",
+    path: "src/fetch/client",
     // 官方推荐各自导入构件以避免歧义
     indexFile: false,
     lint: "oxlint",
@@ -17,6 +17,7 @@ export default defineConfig({
     {
       name: '@hey-api/schemas',
       type: 'json'
-    }
+    },
+    '@hey-api/client-ofetch'
   ]
 })
