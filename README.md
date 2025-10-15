@@ -31,7 +31,7 @@
 ## 尝试
 
 ```bash
-bunx degit AQian0/vitesso vitesso-app
+bunx giget@latest github:AQian0/vitesso vitesso-app
 cd vitesso-app
 bun i
 ```
